@@ -21,7 +21,7 @@
    <img width="797" alt="lab2-add-message2" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/0137265a-a86f-4320-aa66-8caf197dc78d">
    
    The method is handleRequest in the StringServer class.
-   The argument passed is "I am going to go to bed now" and the relevant fields are 'letters' and 'nums'.
+   The relevant argument is UTI as it processes the url which contains the information about the path and query parameters. The class fields that are specifically stored in this case is the `String letters` which is "I think Stephen Curry will average 32.4 PPG this season because he is the goat" and `int nums` is incremented to 4 because there were three previous messages and now a fourth one is added.
    The URI as well as the strings and nums changed. The URI changes every time I add another message, the number increments, and a new string(message) is added. 
    
 
