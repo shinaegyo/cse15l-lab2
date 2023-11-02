@@ -31,12 +31,14 @@ a)
 `/home/linux/ieng6/cs15lfa23ml/.ssh/id_rsa.pub`
 
 private key screenshot
+
 <img width="367" alt="lab2-part1" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/1231e817-12e9-4238-b59e-220dd754ef56">
 
 b)
 `/Users/jamesshin/.ssh/id_rsa`
 
 public key screenshot
+
 <img width="325" alt="lab2-part2" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/3d042120-bfea-45dc-8add-1ac23ab66bd1">
 
 c)
