@@ -21,7 +21,7 @@
    <img width="797" alt="lab2-add-message2" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/0137265a-a86f-4320-aa66-8caf197dc78d">
    
    The method is handleRequest in the StringServer class.
-   The argument is "/add-message" and the query s="I am going to go to bed now" and the relevant fields are 'letters' and 'nums'.
+   The argument passed is "I am going to go to bed now" and the relevant fields are 'letters' and 'nums'.
    The URI as well as the strings and nums changed. The URI changes every time I add another message, the number increments, and a new string(message) is added. 
    
 
@@ -30,11 +30,13 @@
 a)
 `/home/linux/ieng6/cs15lfa23ml/.ssh/id_rsa.pub`
 
+private key screenshot
 <img width="367" alt="lab2-part1" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/1231e817-12e9-4238-b59e-220dd754ef56">
 
 b)
 `/Users/jamesshin/.ssh/id_rsa`
 
+public key screenshot
 <img width="325" alt="lab2-part2" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/3d042120-bfea-45dc-8add-1ac23ab66bd1">
 
 c)
