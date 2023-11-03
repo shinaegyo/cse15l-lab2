@@ -30,7 +30,7 @@
 a)
 `/Users/jamesshin/.ssh/id_rsa`
 
-`id_rsa`is the private key screenshot
+private key screenshot
 
 <img width="325" alt="lab2-part2" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/3d042120-bfea-45dc-8add-1ac23ab66bd1">
 
