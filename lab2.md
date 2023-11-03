@@ -30,7 +30,7 @@
 a)
 `/Users/jamesshin/.ssh/id_rsa`
 
-`id_rsa`represents private key screenshot
+`id_rsa`is the private key screenshot
 
 <img width="325" alt="lab2-part2" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/3d042120-bfea-45dc-8add-1ac23ab66bd1">
 
@@ -38,7 +38,7 @@ a)
 b)
 `/home/linux/ieng6/cs15lfa23ml/.ssh/id_rsa.pub`
 
-`rsa.pub` represents public key screenshot
+`id_rsa.pub` represents public key screenshot
 
 <img width="367" alt="lab2-part1" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/1231e817-12e9-4238-b59e-220dd754ef56">
 
