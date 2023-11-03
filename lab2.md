@@ -12,8 +12,8 @@
 <img width="807" alt="lab2-add-message1" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/5252bed7-2269-4f16-b263-fe5e9bf2f14a">
 
    The method is handleRequest in the StringServer class.
-   The argument is "/add-message" and the query s="I think Stephen Curry will average 32.4 PPG this season because he is the goat" and the relevant fields are 'letters' and 'nums'.
-   The URI as well as the strings and nums changed. The URI changes every time I add another message, the number increments, and a new string(message) is added.
+   The relevant argument is URI as it processes the url which contains the information about the path and query parameters. The class fields are 'letters' and 'nums' and the passed-in argument is "I think Stephen Curry will average 32.4 PPG this season because he is the goat" and `int nums` is incremented to 4 because there were three previous messages and now a fourth one is added.
+   The URI as well as the strings and nums changed. The URI changes every time I add another message, the number increments to 4 in this case, and a new string(message) is added.
    
 
    `add-message screenshot`
@@ -21,8 +21,8 @@
    <img width="797" alt="lab2-add-message2" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/0137265a-a86f-4320-aa66-8caf197dc78d">
    
    The method is handleRequest in the StringServer class.
-   The relevant argument is UTI as it processes the url which contains the information about the path and query parameters. The class fields that are specifically stored in this case is the `String letters` which is "I think Stephen Curry will average 32.4 PPG this season because he is the goat" and `int nums` is incremented to 4 because there were three previous messages and now a fourth one is added.
-   The URI as well as the strings and nums changed. The URI changes every time I add another message, the number increments, and a new string(message) is added. 
+   The relevant argument is URI as it processes the url which contains the information about the path and query parameters. The class fields are 'letters' and 'nums' and the passed-in argument is "I am going to bed now" and `int nums` is incremented to 5 because there were 4 previous messages and now a fifth one is added.
+   The URI as well as the strings and nums changed. The URI changes every time I add another message, the number increments to 5 in this case, and a new string(message) is added. 
    
 
 # 2) 
