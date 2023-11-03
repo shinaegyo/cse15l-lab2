@@ -12,8 +12,8 @@
 <img width="807" alt="lab2-add-message1" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/5252bed7-2269-4f16-b263-fe5e9bf2f14a">
 
    The method is handleRequest in the StringServer class.
-   The relevant argument is URI as it processes the url which contains the information about the path and query parameters. The class fields are 'letters' and 'nums' and the passed-in argument is "I think Stephen Curry will average 32.4 PPG this season because he is the goat" and `int nums` is incremented to 4 because there were three previous messages and now a fourth one is added.
-   The URI as well as the strings and nums changed. The URI changes every time I add another message, the number increments to 4 in this case, and a new string(message) is added.
+   The relevant argument is URI as it processes the url which contains the information about the path and query parameters. The class fields are 'letters' and 'nums' and the passed-in argument is "I think Stephen Curry will average 32.4 PPG this season because he is the goat" and `nums` is incremented to 4 because there were three previous messages and now a fourth one is added.
+   The URI as well as the `letters` and `nums` changed. The URI changes every time I add another message, the `nums` increments to 4 in this case (but in general represents the current number of messages (or lines)), and the most recent argument after the query is added as a string to `letters`, on a separate line.
    
 
    `add-message screenshot`
@@ -21,25 +21,28 @@
    <img width="797" alt="lab2-add-message2" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/0137265a-a86f-4320-aa66-8caf197dc78d">
    
    The method is handleRequest in the StringServer class.
-   The relevant argument is URI as it processes the url which contains the information about the path and query parameters. The class fields are 'letters' and 'nums' and the passed-in argument is "I am going to bed now" and `int nums` is incremented to 5 because there were 4 previous messages and now a fifth one is added.
-   The URI as well as the strings and nums changed. The URI changes every time I add another message, the number increments to 5 in this case, and a new string(message) is added. 
+   The relevant argument is URI which contains the path `/add-message` with query `s=I am going to bed now`. The class fields are 'letters' and 'nums'. `nums` is incremented to 5 because there were 4 previous messages and now a fifth one is added.
+   The string `letters` and int `nums` changed. `letters` now have an additional line containing the contents of our query, prefaced by a number, which has the same value as `nums`, representing the total number of messages that have been added. 
    
 
 # 2) 
 
 a)
-`/home/linux/ieng6/cs15lfa23ml/.ssh/id_rsa.pub`
-
-private key screenshot
-
-<img width="367" alt="lab2-part1" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/1231e817-12e9-4238-b59e-220dd754ef56">
-
-b)
 `/Users/jamesshin/.ssh/id_rsa`
 
-public key screenshot
+`id_rsa`represents private
+private key screenshot
 
 <img width="325" alt="lab2-part2" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/3d042120-bfea-45dc-8add-1ac23ab66bd1">
+
+
+b)
+`/home/linux/ieng6/cs15lfa23ml/.ssh/id_rsa.pub`
+
+`rsa.pub` represents public
+public key screenshot
+
+<img width="367" alt="lab2-part1" src="https://github.com/shinaegyo/cse15l-lab2/assets/137027086/1231e817-12e9-4238-b59e-220dd754ef56">
 
 
 c)
